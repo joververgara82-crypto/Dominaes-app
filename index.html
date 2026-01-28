@@ -1,81 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+
+<html>
 <head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="favicon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <link rel="manifest" href="manifest.json" />
-  <title>Yape App</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
-  <link rel="stylesheet" href="styles.css?v=4">
-
-  <!-- ESTILOS INTERNOS (sin modificar comportamiento) -->
-  <style>
-    html {
-      overflow: hidden;
-      height: 100%;
-    }
-    body{
-      -webkit-user-select: none; /* Safari */
-      -moz-user-select: none; /* Firefox */
-      -ms-user-select: none; /* IE 10+ */
-      user-select: none; /* estándar */
-      margin: 0;
-      overflow: auto;
-      height: 100%;	
-      touch-action: manipulation; /* Desactiva el doble-tap para zoom */
-      overscroll-behavior-y: none; /* Elimina el efecto de rebote */
-      position: fixed;
-    }
-    button,
-    div,
-    input,
-    textarea,
-    select,
-    a {
-      -webkit-tap-highlight-color: transparent;
-    }
-  </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
 </head>
-
-<body class="pantalla-ingresar-monto-activa">
-
-  <!-- Splash Screen -->
-  <div id="splash-screen" style="
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #742384; /* JsKSJ8288K-I2UJWJJJSUUUWJSJSHSHSJEJEIUEJEJEJJEDJUDUDU */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  ">
-    <img src="assets/+HEDJKKK-88WKK-81.svg" alt="Logo" style="
-      width: 25vw;
-      max-width: 100px;
-      height: auto;
-    ">
-  </div>
-
-  <div id="app-container"></div>
-
-  <div class="modal-confirmacion" id="modalEliminar">
-    <div class="contenido">
-      <h3>¿Eliminar movimiento?</h3>
-      <p>Esta acción no se puede deshacer.</p>
-      <div class="botones">
-        <button class="btn-si" id="btnEliminarSi">Eliminar</button>
-        <button class="btn-no" id="btnEliminarNo">Cancelar</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="app.js?v=3"></script>
-
+<body>
+  <h1>
+    Hello, World!
+  </h1>
 </body>
 </html>
